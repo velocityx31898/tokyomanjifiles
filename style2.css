@@ -1,0 +1,73 @@
+html {
+    background-color: black;
+}
+a{
+    color: gold;
+}
+a:hover {
+    color: goldenrod;
+}
+a:active {
+    color: yellow;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+
+#header {
+    font-family: 'Consolas';
+    color: goldenrod;
+    font-size: large;
+    padding: 10px;
+}
+#main {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#main ul{
+    list-style-type: none;
+}
+#back {
+    color: gold;
+    width: 30%;
+    font-size: 20px;
+    float: left;
+}
+#next {
+    width: 60%;
+    margin-right: 10%;
+    float: right;
+    font-size: 20px;
+}
+#image {
+    padding: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 400px;
+    height: 300px;
+}
+#button {
+    font-family: 'Consolas';
+    font-size: large;
+    border-radius: 20%;
+    background: #ead305eb;
+    box-shadow:  32px 32px 64px #73c38e,
+             -32px -32px 64px #adffd4;
+    width: 200px;
+}
+#button:hover {
+    background: #00b2f8;
+    box-shadow:  32px 32px 64px #8cc373,
+             -32px -32px 64px #006e35;
+    animation-duration: 2.5s;
+}
+#button:active::after{
+    background: #005a7e;
+    box-shadow:  3px 3px 6px #8cc373,
+             -3px -3px 6px #006e35;
+    animation-duration: 2
+}
+#link{
+    color: aliceblue;
+}
